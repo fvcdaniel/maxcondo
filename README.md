@@ -1,6 +1,6 @@
 # Maxcondo
 
-Esta é uma api de desenvolvimento para o sistema de condominios.
+Esta é uma api de desenvolvimento para o sistema de condominios utilizando framework python/Flask.
 
 ## Create User
 
@@ -45,7 +45,7 @@ para criar um residencial precisamos enviar um post com o nome dele, o id do sin
 
 >chamada: curl http://localhost:5000/edificio/by_sindico/1
 
->retorno: 
+>retorno:
 ```
 [
   {
