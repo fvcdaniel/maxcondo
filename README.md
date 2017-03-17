@@ -45,17 +45,20 @@ para criar um residencial precisamos enviar um post com o nome dele, o id do sin
 
 >chamada: curl http://localhost:5000/edificio/by_sindico/1
 
->retorno: [
-              {
-                "user_id": "1",
-                "id": "1",
-                "name": "Residencial dos Testes",
-                "apt": "303"
-              },
-              {
-                "user_id": "1",
-                "id": "2",
-                "name": "Residencial dos Testes 2",
-                "apt": "201"
-              },
-      ]
+>retorno: 
+```
+[
+  {
+    "user_id": "1",
+    "id": "1",
+    "name": "Residencial dos Testes",
+    "apt": "303"
+  },
+  {
+    "user_id": "1",
+    "id": "2",
+    "name": "Residencial dos Testes 2",
+    "apt": "201"
+  },
+]
+```
